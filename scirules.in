@@ -344,7 +344,7 @@ SCI_GENERIC_THESIS we SCI_PRESENT_VERB SCI_OVERALL_THESIS_THING ({SYSNAME}), whi
 SCI_OVERALL_THESIS_PROVE SCI_THING_MOD and SCI_THING_MOD are LIT_OFTEN incompatible 
 SCI_OVERALL_THESIS_PROVE SCI_THING_MOD and SCI_THING_MOD can SCI_VERB_PL to SCI_SOLVE_CLAUSE
 SCI_OVERALL_THESIS_PROVE SCI_THING_MOD can be made SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ, and SCI_BUZZWORD_ADJ
-SCI_OVERALL_THESIS_PROVE the SCI_STATUS_ADJ SCI_BUZZWORD_ADJ algorithm for the SCI_ACT SCI_BY_WHO_SOMETIMES SCI_PROOF_PROP
+SCI_OVERALL_THESIS_PROVE the SCI_STATUS_ADJ SCI_BUZZWORD_ADJ spell for the SCI_ACT SCI_BY_WHO_SOMETIMES SCI_PROOF_PROP
 
 SCI_BY_WHO_SOMETIMES
 SCI_BY_WHO_SOMETIMES CITATION
@@ -450,8 +450,8 @@ LATEX_DIAGRAM_MAYBE
 
 SCI_MODEL_TYPE	model
 SCI_MODEL_TYPE	design
-SCI_MODEL_TYPE	framework
-SCI_MODEL_TYPE	architecture
+SCI_MODEL_TYPE	mythos
+SCI_MODEL_TYPE	tradition
 SCI_MODEL_TYPE	methodology
 SCI_MODEL_TYPE_P	models
 SCI_MODEL_TYPE_P	designs
@@ -585,12 +585,12 @@ IMPL_BODY_INSIDE+3 	IMPL_MID IMPL_MID IMPL_MID
 IMPL_BODY_INSIDE+2 	IMPL_MID IMPL_MID
 IMPL_BODY_INSIDE 	IMPL_MID
 
-PROGRAMMING_VERBING	hacking
-PROGRAMMING_VERBING	programming
-PROGRAMMING_VERBING	coding
-PROGRAMMING_VERBING	designing
-PROGRAMMING_VERBING	architecting
-PROGRAMMING_VERBING	implementing
+PROGRAMMING_VERBING	casting
+PROGRAMMING_VERBING	conjuring
+PROGRAMMING_VERBING	chanting
+PROGRAMMING_VERBING	spellbinding
+PROGRAMMING_VERBING	performing
+PROGRAMMING_VERBING	crafting
 PROGRAMMING_VERBING	optimizing
 
 IMPL_INTRO after several TRACE_UNITs of DIFFICULT_X PROGRAMMING_VERBING, we finally have a working implementation of SCI_OUR_SYSTEM XXX
@@ -605,44 +605,44 @@ IMPL_MID_X SCI_OUR_SYSTEM is composed of a IMPL_COMPONENT, a IMPL_COMPONENT, and
 IMPL_MID_X the IMPL_COMPONENT contains about MED_NUM CODE_LINES of LANGUAGE_UM
 IMPL_MID_X we have not yet implemented the IMPL_COMPONENT, as this is the least SCI_ADJ component of SCI_OUR_SYSTEM
 IMPL_MID_X since SCI_SYSTEM_PROP, PROGRAMMING_VERBING the IMPL_COMPONENT was relatively straightforward
-IMPL_MID_X SCI_OUR_SYSTEM requires root access in order to SCI_SYS_VERB SCI_GENERIC_NOUN
+IMPL_MID_X SCI_OUR_SYSTEM requires archmage level clearance in order to SCI_SYS_VERB SCI_GENERIC_NOUN
 IMPL_MID_X LIT_ALTHOUGH we have not yet optimized for CONSTRAINT_TYPE, this should be simple once we finish PROGRAMMING_VERBING the IMPL_COMPONENT
 IMPL_MID_X SCI_PEOPLE have complete control over the IMPL_COMPONENT, which of course is necessary so that SCI_OVERALL_THESIS_PROVE
 IMPL_MID_X it was necessary to cap the EVAL_MEASUREMENT_UM used by SCI_OUR_SYSTEM to MED_NUM EVAL_UNIT_UM
-IMPL_MID_X the IMPL_COMPONENT and the IMPL_COMPONENT must run IMPL_RUN_TYPE
+IMPL_MID_X the IMPL_COMPONENT and the IMPL_COMPONENT must be cast with IMPL_RUN_TYPE
 # IMPL_MID_X our IMPL_COMPONENT REQUIRED 
 
-IMPL_CONCL we plan to release all of this code under LICENSE_TYPE XXX
+IMPL_CONCL we plan to release all of these spells under LICENSE_TYPE XXX
 IMPL_CONCL overall, SCI_OUR_SYSTEM adds only modest overhead and complexity to RELATED SCI_BUZZWORD_ADJ SCI_SYSTEM_PL XXX
 IMPL_CONCL one SCI_CAN imagine other SCI_APPROACH_PL to the implementation that would have made PROGRAMMING_VERBING it much simpler XXX
 IMPL_CONCL+3 IMPL_MID_X XXX
 
 
-LICENSE_TYPE the Gnu Public License
+LICENSE_TYPE Arcane Standard License
 LICENSE_TYPE public domain
-LICENSE_TYPE X11 license
-LICENSE_TYPE BSD license
-LICENSE_TYPE Microsoft's Shared Source License
-LICENSE_TYPE Old Plan 9 License
-LICENSE_TYPE Sun Public License
+LICENSE_TYPE Pact license
+LICENSE_TYPE Illithid Hive Mind license
+LICENSE_TYPE Shared Source License
+LICENSE_TYPE Old License
+LICENSE_TYPE Pelor Public License
 
-IMPL_RUN_TYPE on the same node
-IMPL_RUN_TYPE in the same JVM
+IMPL_RUN_TYPE on the same plane
+IMPL_RUN_TYPE in the same demiplane
 IMPL_RUN_TYPE with the same permissions
 
 
-IMPL_COMPONENT client-side library
-IMPL_COMPONENT server daemon
+IMPL_COMPONENT animated library
+IMPL_COMPONENT serving demon
 IMPL_COMPONENT centralized logging facility
-IMPL_COMPONENT collection of shell scripts
-IMPL_COMPONENT homegrown database
-IMPL_COMPONENT hand-optimized compiler
-IMPL_COMPONENT virtual machine monitor
-IMPL_COMPONENT hacked operating system
-IMPL_COMPONENT codebase of NONZDIGIT LANGUAGE_UM files
+IMPL_COMPONENT collection of shell scrolls
+IMPL_COMPONENT homegrown ingredients
+IMPL_COMPONENT hand-optimized spellfocus
+IMPL_COMPONENT virtual modron interface
+IMPL_COMPONENT awakened eldritch horror
+IMPL_COMPONENT spellbase of NONZDIGIT LANGUAGE_UM scrolls
 
-CODE_LINES	lines
-CODE_LINES	semi-colons
+CODE_LINES	verses
+CODE_LINES	glyphs
 CODE_LINES	instructions
 
 #############################################################################
@@ -901,8 +901,8 @@ SCI_EVAL {
 
 }
 
-EVAL_SEC_SUBHEAD_1	Hardware and Software Configuration
-EVAL_SEC_SUBEHAD_1	System Setup
+EVAL_SEC_SUBHEAD_1	Artifact and Spell Configuration
+EVAL_SEC_SUBEHAD_1	Casting Setup
 EVAL_SEC_SUBEHAD_1	Experimental Setup
 
 EVAL_SEC_SUBHEAD_1_LTX	\subsection{EVAL_SEC_SUBHEAD_1}
@@ -910,7 +910,7 @@ EVAL_SEC_SUBHEAD_2_LTX	\subsection{EVAL_SEC_SUBHEAD_2}
 
 EVAL_SEC_SUBHEAD_2	Experimental Results
 EVAL_SEC_SUBHEAD_2	Experiments and Results
-EVAL_SEC_SUBHEAD_2	Dogfooding SCI_OUR_SYSTEM
+EVAL_SEC_SUBHEAD_2	Transmorphing SCI_OUR_SYSTEM
 
 EVAL_SEC_INTRO 		EVAL_SEC_INTRO_A EVAL_SEC_INTRO_BS EVAL_SEC_INTRO_C
 
@@ -995,7 +995,7 @@ EVAL_SEC_HYPOTHESIS 	that SCI_THING_HAS actually shown DIFFERENT EVAL_MEASUREMEN
 
 EVAL_SEC_HYPOTHESIS 	that we can do LITTLE to AFFECT a SCI_SYSTEM's PROP_OR_MEASUREMENT_NO_SYSTEM
 
-EVAL_SEC_HYPOTHESIS	that the OLD_MACHINE of yesteryear actually exhibits better EVAL_MEASUREMENT than today's hardware
+EVAL_SEC_HYPOTHESIS	that the OLD_MACHINE of yesteryear actually exhibits better EVAL_MEASUREMENT than today's artifacts
 
 EVAL_SEC_HYPOTHESIS	that EVAL_MEASUREMENT stayed constant across successive generations of OLD_MACHINEs
 
@@ -1006,13 +1006,13 @@ THINGS_NO_LONGER_INFLUENCE	SCI_THING_S no longer AFFECTs
 
 EVAL_SEC_HYPOTHESIS 	that THINGS_NO_LONGER_INFLUENCE PROP_OR_MEASUREMENT
 EVAL_SEC_HYPOTHESIS 	that THINGS_NO_LONGER_INFLUENCE performance
-EVAL_SEC_HYPOTHESIS 	that THINGS_NO_LONGER_INFLUENCE system design
+EVAL_SEC_HYPOTHESIS 	that THINGS_NO_LONGER_INFLUENCE spell design
 
 EVAL_SEC_HYPOTHESIS 	that EVAL_MEASUREMENT is a BAD way to measure EVAL_MEASUREMENT
-BAD		bad
-BAD		good
+BAD		cursed
+BAD		corrupted
 BAD		obsolete
-BAD		outmoded
+BAD		forgotten
 
 EVAL_SEC_INTRO_C	we hope to make clear that our EVAL_MODING is the key to our EVALUATION.
 EVAL_SEC_INTRO_C	our work in this regard is a novel contribution, in and of itself.
@@ -1056,7 +1056,7 @@ AMBITIOUS		novel
 AMBITIOUS		experimental
 AMBITIOUS		unstable
 AMBITIOUS		complex
-AMBITIOUS		overengineered
+AMBITIOUS		overcasting
 
 DIFFICULT_X		difficult
 DIFFICULT_X		arduous
@@ -1069,9 +1069,8 @@ DIFFICULT		more DIFFICULT_X than with previous systems
 EVAL_MODING_HARDWARE	MULTIPLE_VERBING the HARDWARE_PROP_OR_MEASUREMENT of EVAL_SYSTEM
 EVAL_MODING_SOFTWARE	HACK_VERBING the SOFTWARE_PROP_OR_MEASUREMENT of our SOFTWARE_SYSTEM
 
-SOFTWARE_SYSTEM		operating system
-SOFTWARE_SYSTEM		distributed system
-SOFTWARE_SYSTEM		mesh network
+SOFTWARE_SYSTEM		spellcasting tradition
+SOFTWARE_SYSTEM		school of magic
 SOFTWARE_SYSTEM		SCI_THING
 
 EVALUATING		evaluating
@@ -1104,11 +1103,11 @@ HACKED			autonomous
 HACKED			autogenerated
 HACKED			modified
 
-SOFTWARE_PROP_UNMOD	code complexity
-SOFTWARE_PROP_UNMOD	ABI
-SOFTWARE_PROP_UNMOD	API
-SOFTWARE_PROP_UNMOD	user-kernel boundary
-SOFTWARE_PROP_UNMOD	software architecture
+SOFTWARE_PROP_UNMOD	ritual complexity
+SOFTWARE_PROP_UNMOD	component cost
+SOFTWARE_PROP_UNMOD	somatic sensitivity
+SOFTWARE_PROP_UNMOD	caster-arcanum boundary
+SOFTWARE_PROP_UNMOD	spell architecture
 
 SOFTWARE_PROP		SOFTWARE_PROP_UNMOD
 SOFTWARE_PROP		SOFTWARE_ADJ SOFTWARE_PROP_UNMOD
@@ -1150,10 +1149,10 @@ NETWORK_TYPE_N	10
 NETWORK_TYPE_N	100
 NETWORK_TYPE_N	1000
 
-NETWORK_TYPE	Internet
-NETWORK_TYPE	Internet-2
-NETWORK_TYPE	Planetlab
-NETWORK_TYPE	sensor-net
+NETWORK_TYPE	teleportation infrastructure
+NETWORK_TYPE	telepathic web
+NETWORK_TYPE	transplanar
+NETWORK_TYPE	ward-net
 NETWORK_TYPE	NETWORK_TYPE_N-node
 NETWORK_TYPE	NETWORK_TYPE_N-node
 NETWORK_TYPE	NETWORK_TYPE_N-node
@@ -1163,12 +1162,12 @@ NETWORK_TYPE	millenium
 
 EXP_ADJ		SCI_BUZZWORD_ADJ
 EXP_ADJ		real-time
-EXP_ADJ		packet-level
+EXP_ADJ		dreamworld
 EXP_ADJ		quantized
 EXP_ADJ		real-world
 EXP_ADJ		ad-hoc
-EXP_ADJ		software
-EXP_ADJ		hardware
+EXP_ADJ		spell
+EXP_ADJ		spell component
 EXP_TYPE	EXP_ADJ EXP_TYPE_UM
 EXP_TYPE	EXP_TYPE_UM
 EXP_TYPE_UM	simulation
@@ -1178,30 +1177,30 @@ EXP_TYPE_UM	prototype
 
 EXP_WHERE_UM	cluster
 EXP_WHERE_UM	testbed
-EXP_WHERE_UM	overlay network
+EXP_WHERE_UM	overlay demiplane
 
 # common places to run experiments
-EXP_WHERE_CMN	desktop machines
-EXP_WHERE_CMN	mobile telephones
+EXP_WHERE_CMN	spellcasting apparatae
+EXP_WHERE_CMN	sending stones
 EXP_WHERE_CMN	system
 EXP_WHERE_CMN	network
 EXP_WHERE_CMN+4	EXP_WHERE_ADJ EXP_WHERE_UM
 
 # rare places
-OLD_MACHINE	Macintosh SE
-OLD_MACHINE	UNIVAC
-OLD_MACHINE	Apple ][e
-OLD_MACHINE	IBM PC Junior
-OLD_MACHINE	Atari 2600
-OLD_MACHINE	Nintendo Gameboy
-OLD_MACHINE	Motorola bag telephone
-OLD_MACHINE	Apple Newton
-OLD_MACHINE	Commodore 64
-OLD_MACHINE	NeXT Workstation
-OLD_MACHINE	LISP machine
-OLD_MACHINE	PDP 11
-EXP_WHERE_RARE	decommissioned OLD_MACHINEs
-EXP_WHERE_RARE	XBox network
+OLD_MACHINE	Golem
+OLD_MACHINE	Modrone
+OLD_MACHINE	Homunculus
+OLD_MACHINE	Trinket
+OLD_MACHINE	broken staff
+OLD_MACHINE	chipped focus crystal
+OLD_MACHINE	corrupted scrying mirror
+OLD_MACHINE	cursed pet
+OLD_MACHINE	empty bottle
+OLD_MACHINE	random leftovers
+OLD_MACHINE	spellplagued raven
+OLD_MACHINE	
+EXP_WHERE_RARE	polymorphed OLD_MACHINEs
+EXP_WHERE_RARE	standard hive mind
 EXP_WHERE_RARE	human test subjects
 
 EXP_WHERE	EXP_WHERE_RARE
@@ -1240,12 +1239,12 @@ EVAL_HARDWARE_INTRO EVAL_ACTION EVAL_MOD_XXX LIT_FIRST EVAL_MOD EVAL_MOD_XXX LIT
 }
 
 
-EVAL_HARDWARE_INTRO	many hardware modifications were REQUIRED to measure SCI_OUR_SYSTEM.
-EVAL_HARDWARE_INTRO	our detailed EVALUATION REQUIRED many hardware modifications.
-EVAL_HARDWARE_INTRO	we modified our standard hardware as follows:
-EVAL_HARDWARE_INTRO	a well-tuned network setup holds the key to a useful EVALUATION.
+EVAL_HARDWARE_INTRO	many item modifications were REQUIRED to measure SCI_OUR_SYSTEM.
+EVAL_HARDWARE_INTRO	our detailed EVALUATION REQUIRED many relic modifications.
+EVAL_HARDWARE_INTRO	we modified our standard artifacts as follows:
+EVAL_HARDWARE_INTRO	a well-tuned junction setup holds the key to a useful EVALUATION.
 EVAL_HARDWARE_INTRO	though many elide important experimental details, we provide them here in gory detail.
-EVAL_HARDWARE_INTRO	one must understand our network configuration to grasp the genesis of our results.
+EVAL_HARDWARE_INTRO	one must understand our spellweave configuration to grasp the genesis of our results.
 
 REQUIRED	mandated
 REQUIRED	required
@@ -1270,7 +1269,7 @@ EVAL_SEC_FILLER	This configuration step was time-consuming but worth it in the e
 EVAL_SEC_FILLER	Configurations without this modification showed DIFFERENT EVAL_MEASUREMENT
 EVAL_SEC_FILLER	With this change, we noted DIFFERENT PERFORMANCE IMPROVEMENT
 EVAL_SEC_FILLER	This step flies in the face of conventional wisdom, but is INSTRUMENTAL to our results
-EVAL_SEC_FILLER	To find the required HARDWARE_ITEMS, we combed eBay and tag sales
+EVAL_SEC_FILLER	To find the required HARDWARE_ITEMS, we combed crypts and wizard estate sales
 EVAL_SEC_FILLER	we struggled to amass the necessary HARDWARE_ITEMS
 EVAL_SEC_FILLER	the HARDWARE_ITEMS described here explain our UNIQUE results
 EVAL_SEC_FILLER	note that only experiments on our EXP_WHERE (and not on our EXP_WHERE) followed this pattern
@@ -1295,11 +1294,11 @@ EMULATING_THEM	simulating them in WARE
 EMULATING_THEM	emulating them in WARE
 EMULATING_THEM	deploying them in THE_WILD
 
-WARE		software
-WARE		hardware
-WARE		courseware
-WARE		bioware
-WARE		middleware
+WARE		chrystaline demiplanes
+WARE		spirit jars
+WARE		animal hosts
+WARE		plant-matter
+WARE		constructs
 
 THE_WILD	the wild
 THE_WILD	a laboratory setting
@@ -1380,9 +1379,9 @@ EVAL_MOD_N	150
 EVAL_MOD_AMOUNT	more
 EVAL_MOD_AMOUNT	some
 
-EVAL_MOD_HARDWARE	hard drive space
+EVAL_MOD_HARDWARE	space
 EVAL_MOD_HARDWARE	memory
-EVAL_MOD_HARDWARE	network bandwidth
+EVAL_MOD_HARDWARE	weave capacity
 
 EVAL_MOD_PROPERTY	throughput
 EVAL_MOD_PROPERTY	SCI_MATH_ADJ throughput
@@ -1419,16 +1418,16 @@ STORAGE_ITEM		STORAGE_TYPE
 EXPANSION_ITEMS		EXPANSION_ITEMs
 STORAGE_ITEMS		STORAGE_ITEMs
 
-EXPANSION_ITEM		joystick
-EXPANSION_ITEM		2400 baud modem
-EXPANSION_ITEM		SoundBlaster 8-bit sound card
-EXPANSION_ITEM		Knesis keyboard
-EXPANSION_ITEM		power strip
-EXPANSION_ITEM		Ethernet card
-EXPANSION_ITEM		tulip card
-EXPANSION_ITEM		laser label printer
-EXPANSION_ITEM		dot-matrix printer
-EXPANSION_ITEM		5.25" floppy drive
+EXPANSION_ITEM		ward
+EXPANSION_ITEM		orb
+EXPANSION_ITEM		rune
+EXPANSION_ITEM		blood stone
+EXPANSION_ITEM		power vortex
+EXPANSION_ITEM		shadow junction
+EXPANSION_ITEM		spellweave rupture
+EXPANSION_ITEM		lightning absorber
+EXPANSION_ITEM		power conduit
+EXPANSION_ITEM		seal
 
 
 BANDWIDTH_AMOUNT	EVAL_MOD_NMB/s
@@ -1437,9 +1436,9 @@ BANDWIDTH_AMOUNT	EVAL_MOD_NGB/s
 BANDWIDTH_AMOUNT	EVAL_MOD_NGb/s
 
 NETWORK_BANDWIDTH	BANDWIDTH_AMOUNT of BANDWIDTH_TYPE
-BANDWIDTH_TYPE		Ethernet access
-BANDWIDTH_TYPE		Wi-Fi throughput
-BANDWIDTH_TYPE		Internet access
+BANDWIDTH_TYPE		Ethereal access point
+BANDWIDTH_TYPE		shadow essence throughput
+BANDWIDTH_TYPE		spellweave access
 
 MEMORY			EVAL_MOD_NMB of MEMORY_TYPE
 MEMORY			EVAL_MOD_AMOUNT MEMORY_TYPE
@@ -1459,11 +1458,11 @@ STORAGE_SIZE		EVAL_MOD_NGB
 STORAGE_SIZE		EVAL_MOD_N-petabyte
 STORAGE_SIZE		EVAL_MOD_NTB
 
-STORAGE_TYPE		hard disk
-STORAGE_TYPE		optical drive
-STORAGE_TYPE		floppy disk
-STORAGE_TYPE		tape drive
-STORAGE_TYPE		USB key
+STORAGE_TYPE		black pearl
+STORAGE_TYPE		crystal
+STORAGE_TYPE		scroll
+STORAGE_TYPE		rune tablet
+STORAGE_TYPE		valencian key
 
 MEMORY_TYPE		RAM
 MEMORY_TYPE		ROM
@@ -1511,8 +1510,8 @@ EVAL_SEC_SOFTWARE_REST	EVAL_SEC_SOFTWARE_END
 EVAL_SEC_SOFTWARE_REST  LIT_MIDDLE_3 EVAL_SEC_SOFTWARE_MOD XXX EVAL_SEC_SOFTWARE_END
 
 EVAL_SEC_SOFTWARE_MOD	EVAL_WHO added support for SCI_OUR_SYSTEM as a KERNEL_MODULE
-EVAL_SEC_SOFTWARE_MOD	all software components were COMPILED using TOOLCHAIN LINKER_SUFFIX
-EVAL_SEC_SOFTWARE_MOD	all software was COMPILED using TOOLCHAIN LINKER_SUFFIX
+EVAL_SEC_SOFTWARE_MOD	all spell components were COMPILED using TOOLCHAIN LINKER_SUFFIX
+EVAL_SEC_SOFTWARE_MOD	all spellcasting was COMPILED using TOOLCHAIN LINKER_SUFFIX
 EVAL_SEC_SOFTWARE_MOD   our experiments soon proved that HACK_VERBING our EVAL_ITEMS_P was more effective than HACK_VERBING them, as previous work suggested
 EVAL_SEC_SOFTWARE_MOD	we implemented our SCI_THING_S server in LANGUAGE, augmented with SCI_MATH_ADV SCI_MATH_ADJ extensions
 
@@ -1521,9 +1520,9 @@ LINKER_SUFFIX		with the help of SCI_SOURCE's libraries for SCI_MATH_ADV SCI_VERB
 LINKER_SUFFIX		built on SCI_SOURCE's toolkit for SCI_MATH_ADV SCI_VERBING EVAL_ITEMS
 LINKER_SUFFIX		built on the SCI_COUNTRY toolkit for SCI_MATH_ADV SCI_VERBING EVAL_ITEMS
 
-EVAL_SEC_SOFTWARE_END	we made all of our software is available under a LICENSE_TYPE license.
+EVAL_SEC_SOFTWARE_END	we made all of our spell prints available under a LICENSE_TYPE license.
 EVAL_SEC_SOFTWARE_END	we note that other researchers have tried and failed to enable this functionality.
-EVAL_SEC_SOFTWARE_END	this concludes our discussion of software modifications.
+EVAL_SEC_SOFTWARE_END	this concludes our discussion of spell modifications.
 EVAL_SEC_SOFTWARE_END	all of these techniques are of interesting historical significance; SCI_SOURCE and SCI_SOURCE investigated a SIMILAR SETUP in SCI_YEAR.
 
 SIMILAR	related
@@ -1536,37 +1535,37 @@ SETUP	configuration
 SETUP	system
 SETUP	heuristic
 
-LICENSE_TYPE		copy-once, run-nowhere
-LICENSE_TYPE		GPL Version 2
+LICENSE_TYPE		copy-once (scroll)
+LICENSE_TYPE		celestial
 LICENSE_TYPE		draconian
-LICENSE_TYPE		very restrictive
-LICENSE_TYPE		Microsoft-style
-LICENSE_TYPE		open source
+LICENSE_TYPE		Elminister
+LICENSE_TYPE		Bigby style
+LICENSE_TYPE		open spell source
 LICENSE_TYPE		CITE_INST
-LICENSE_TYPE		write-only
+LICENSE_TYPE		read-only (scroll)
 
-LANGUAGE_UM		Perl
-LANGUAGE_UM		C
-LANGUAGE_UM		B
-LANGUAGE_UM		C++
-LANGUAGE_UM		Python
-LANGUAGE_UM		Lisp
-LANGUAGE_UM		Scheme
-LANGUAGE_UM		Smalltalk
-LANGUAGE_UM		Ruby
-LANGUAGE_UM		x86 assembly
-LANGUAGE_UM		Dylan
-LANGUAGE_UM		Java
-LANGUAGE_UM		SQL
-LANGUAGE_UM		Fortran
-LANGUAGE_UM		PHP
-LANGUAGE_UM		Prolog
-LANGUAGE_UM		ML
-LANGUAGE_UM		Simula-67
+LANGUAGE_UM		Draconic
+LANGUAGE_UM		Celestial
+LANGUAGE_UM		Abyssal
+LANGUAGE_UM		Deepspeech
+LANGUAGE_UM		Sylvan
+LANGUAGE_UM		Primordial
+LANGUAGE_UM		Infernal
+LANGUAGE_UM		Undercommon
+LANGUAGE_UM		Dwarven
+LANGUAGE_UM		Common
+LANGUAGE_UM		Elven
+LANGUAGE_UM		Gnomish
+LANGUAGE_UM		Orcish
+LANGUAGE_UM		Auran
+LANGUAGE_UM		Druidic
+LANGUAGE_UM		Terran
+LANGUAGE_UM		Ignan
+LANGUAGE_UM		Aquan
 
 LANGUAGE_MOD		enhanced
 LANGUAGE_MOD		embedded
-LANGUAGE_MOD		JIT-compiled
+LANGUAGE_MOD		JIT-deciphered
 LANGUAGE_MOD		ANSI
 
 LANGUAGE+2		LANGUAGE_UM
@@ -1589,31 +1588,31 @@ EVAL_ITEMS		EVAL_ITEMS_P
 EVAL_ITEMS		EVAL_ITEMS_S
 
 
-KERNEL_MODULE_UM		kernel module
-KERNEL_MODULE_UM		kernel patch
-KERNEL_MODULE_UM		LINKED user-space application
-KERNEL_MODULE_UM		embedded application
-KERNEL_MODULE_UM		runtime applet
+KERNEL_MODULE_UM		spell part
+KERNEL_MODULE_UM		spell modification
+KERNEL_MODULE_UM		LINKED realm-space target
+KERNEL_MODULE_UM		included relic
+KERNEL_MODULE_UM		spelltime support
 
 KERNEL_MODULE			KERNEL_MODULE_UM
 KERNEL_MODULE			SCI_MATH_ADJ KERNEL_MODULE_UM
 
-COMPILED		compiled
-COMPILED		hand hex-editted
-COMPILED		linked
-COMPILED		hand assembled
+COMPILED		ritualised
+COMPILED		hexed
+COMPILED		sung
+COMPILED		hand-waved
 
-TOOLCHAIN		GCC VERSION
-TOOLCHAIN		AT\&T System V's compiler
-TOOLCHAIN		a standard toolchain
-TOOLCHAIN		Microsoft developer's studio
+TOOLCHAIN		Pact version
+TOOLCHAIN		Bigby’s spellcomponent processor
+TOOLCHAIN		a standard spellfocus
+TOOLCHAIN		Elministers variations
 
 
-LINKED			dynamically-linked
-LINKED			statically-linked
+LINKED			planarly-connected
+LINKED			transplanarly-connected
 
-EVAL_SEC_SOFTWARE_INTRO	SYSNAME does not run on a commodity operating system but instead requires a SCI_MATH_ADV HACKED version of OSFULL
-EVAL_SEC_SOFTWARE_INTRO	SYSNAME runs on HACKED standard software
+EVAL_SEC_SOFTWARE_INTRO	SYSNAME does not belong to a orthodox spellcasting tradition but instead requires a SCI_MATH_ADV HACKED version of OSFULL
+EVAL_SEC_SOFTWARE_INTRO	SYSNAME runs on HACKED standard spells
 EVAL_SEC_SOFTWARE_INTRO	We ran SCI_OUR_SYSTEM on commodity operating systems, such as OSFULL and OSFULL
 EVAL_SEC_SOFTWARE_INTRO	Building a sufficient software environment took time, but was well worth it in the end
 EVAL_SEC_SOFTWARE_INTRO	When SCI_SOURCE HACKED OSFULL's SOFTWARE_PROP in SCI_YEAR, he could not have anticipated the impact; our work here FOLLOWS_SUIT
@@ -1647,14 +1646,14 @@ OSNAME		Sprite
 OSNAME		AT\&T System V
 OSNAME+4	Microsoft Windows WINVERS
 
-WINVERS		XP
-WINVERS		3.11
-WINVERS		2000
-WINVERS		98
-WINVERS		NT
-WINVERS		for Workgroups
-WINVERS		Longhorn
-WINVERS		1969
+WINVERS		Mammon
+WINVERS		Azuth
+WINVERS		Simbul
+WINVERS		Elminister
+WINVERS		Amn
+WINVERS		for Sorcerers
+WINVERS		Mystra
+WINVERS	340
 
 OSFULL		OSNAME Version VERSION
 OSFULL		OSNAME
@@ -1699,10 +1698,10 @@ EVAL_GUTS_ANALYSIS_1 EVAL_GUTS_ANALYSIS_1_A XXX EVAL_GUTS_ANALYSIS
 EVAL_GUTS_ANALYSIS  EVAL_ANALYZE_ONE XXX LIT_MIDDLE_TWO EVAL_ANALYZE_ONE XXX LIT_MIDDLE_3 EVAL_ANALYZE_ONE XXX
 
 EVAL_ANALYZE_ONE note the heavy tail on the CDF in EXP_FIG, exhibiting DIFFERENT EVAL_MEASUREMENT
-EVAL_ANALYZE_ONE the many discontinuities in the graphs point to DIFFERENT EVAL_MEASUREMENT introduced with our hardware upgrades
-EVAL_ANALYZE_ONE bugs in our system caused the unstable behavior throughout the experiments
-EVAL_ANALYZE_ONE Gaussian electromagnetic disturbances in our EXP_WHERE caused unstable experimental results
-EVAL_ANALYZE_ONE operator error alone cannot account for these results
+EVAL_ANALYZE_ONE the many discontinuities in the graphs point to DIFFERENT EVAL_MEASUREMENT introduced with our artifact upgrades
+EVAL_ANALYZE_ONE flaws in our inscriptions caused the unstable behavior throughout the experiments
+EVAL_ANALYZE_ONE chaos magic disturbances in our EXP_WHERE caused unstable experimental results
+EVAL_ANALYZE_ONE spellcasting failure alone cannot account for these results
 EVAL_ANALYZE_ONE these EVAL_MEASUREMENT observations contrast to those seen in earlier work CITATION, such as SCI_SOURCE's seminal treatise on SCI_THING_P and observed HARDWARE_PROP_OR_MEASUREMENT
 EVAL_ANALYZE_ONE note how EMULATING SCI_THING_P rather than EMULATING_THEM produce SMOOTHER, more reproducible results
 EVAL_ANALYZE_ONE the results come from only DIGIT trial runs, and were not reproducible
@@ -1765,7 +1764,7 @@ WHICH_EXPERIMENTS	experiments (1) and (4) enumerated above
 WHICH_EXPERIMENTS	all four experiments
 
 
-EVAL_GUTS_INTRO	our hardware and software modficiations PROVE_THAT EMULATING SCI_OUR_SYSTEM is one thing, but EMULATING_IT is a completely different story.
+EVAL_GUTS_INTRO	our artifact and spell modficiations PROVE_THAT EMULATING SCI_OUR_SYSTEM is one thing, but EMULATING_IT is a completely different story.
 EVAL_GUTS_INTRO we have taken great pains to describe out EVALUATION setup; now, the payoff, is to discuss our results.
 EVAL_GUTS_INTRO given these trivial configurations, we achieved non-trivial results.
 EVAL_GUTS_INTRO is it possible to justify the great pains we took in our implementation? SCI_RESPONSE.
@@ -1779,9 +1778,9 @@ EVAL_GUTS_EXP_SET_FOLLOWON	all of these experiments completed without RESOURCE_S
 
 RESOURCE_STARVATION	resource starvation
 RESOURCE_STARVATION	LAN congestion
-RESOURCE_STARVATION	access-link congestion
+RESOURCE_STARVATION	portal congestion
 RESOURCE_STARVATION	WAN congestion
-RESOURCE_STARVATION	the black smoke that results from hardware failure
+RESOURCE_STARVATION	the black smoke that results from artifact failure
 RESOURCE_STARVATION	paging 
 RESOURCE_STARVATION	NETWORK_TYPE congestion
 RESOURCE_STARVATION	noticable performance bottlenecks
@@ -1798,31 +1797,31 @@ IDEAL	ideal
 IDEAL	approximate
 IDEAL	contrived
 
-EVAL_EXP	we ran SCI_THING_P on DIGITDIGIT nodes spread throughout the NETWORK_TYPE network, and compared them against SCI_THING_P running locally
+EVAL_EXP	we infused SCI_THING_P on DIGITDIGIT junctions spread throughout the NETWORK_TYPE weave, and compared them against SCI_THING_P locally
 
-EVAL_EXP	we deployed DIGITDIGIT OLD_MACHINEs across the NETWORK_TYPE network, and tested our SCI_THING_P accordingly
+EVAL_EXP	we deployed DIGITDIGIT OLD_MACHINEs across the NETWORK_TYPE weave, and tested our SCI_THING_P accordingly
 
 EVAL_EXP	we asked (and answered) what would happen if SCI_MATH_ADV SCI_MATH_ADJ SCI_THING_P were used instead of SCI_THING_P
 
 EVAL_EXP	we measured HARDWARE_PROP as a function of HARDWARE_PROP on a OLD_MACHINE
 
-EVAL_EXP 	we compared EVAL_MEASUREMENT on the OSNAME, OSNAME and OSNAME operating systems
+EVAL_EXP 	we compared EVAL_MEASUREMENT on the OSNAME, OSNAME and OSNAME conduits.
 
 EVAL_EXP	we measured MEASURABLE_SYSTEM and MEASURABLE_SYSTEM PERFORMANCE on our EXP_WHERE
 
-EVAL_EXP	we dogfooded SCI_OUR_SYSTEM on our own desktop machines, paying particular attention to HARDWARE_PROP_OR_MEASUREMENT
+EVAL_EXP	we transmorphed SCI_OUR_SYSTEM on our own artifacts, paying particular attention to HARDWARE_PROP_OR_MEASUREMENT
 
 EVAL_EXP	we ran DIGITDIGIT trials with a simulated MEASURABLE_SYSTEM workload, and compared results to our EMULATION
 
 
-MEASURABLE_SYSTEM	DNS
-MEASURABLE_SYSTEM	Web server
-MEASURABLE_SYSTEM	E-mail
-MEASURABLE_SYSTEM	instant messenger
-MEASURABLE_SYSTEM	RAID array
-MEASURABLE_SYSTEM	database
-MEASURABLE_SYSTEM	WHOIS
-MEASURABLE_SYSTEM	DHCP
+MEASURABLE_SYSTEM	mystic matrix
+MEASURABLE_SYSTEM     starseed
+MEASURABLE_SYSTEM	celestial conduit
+MEASURABLE_SYSTEM	energy vortex
+MEASURABLE_SYSTEM	local nexus
+MEASURABLE_SYSTEM	arcane library
+MEASURABLE_SYSTEM	spellweave
+MEASURABLE_SYSTEM	divination grid
 
 EMULATION		WARE emulation
 EMULATION		WARE simulation
@@ -1895,7 +1894,7 @@ SCI_GENERIC_THESIS_PAST we SCI_PRESENT_VERBED SCI_OVERALL_THESIS_THING ({SYSNAME
 CONCL_CONCL we plan to explore more SCI_PROBLEM_PL related to these issues in future work.
 CONCL_CONCL we see no reason not to use SCI_OUR_SYSTEM for SCI_SYS_VERBING SCI_GENERIC_NOUN.
 CONCL_CONCL LIT_CONCLUSION, our vision for the future of SCI_FIELD certainly includes SCI_OUR_SYSTEM.
-CONCL_CONCL we plan to make SCI_OUR_SYSTEM available on the Web for public download.
+CONCL_CONCL we plan to make SCI_OUR_SYSTEM widely available in arcane shops.
 CONCL_CONCL the SCI_ACT is more SCI_ADJ than ever, and SCI_OUR_SYSTEM helps SCI_PEOPLE do just that.
 CONCL_CONCL we expect to see many SCI_PEOPLE move to SCI_VERBING SCI_OUR_SYSTEM in the very near future.
 CONCL_CONCL LIT_LAST SCI_GENERIC_THESIS_PAST.
@@ -1906,9 +1905,9 @@ CONCL_CONCL CONCL_MID_X.
 ####### Nouns #######
 #############################################################################
 
-SCI_BUZZWORD_NOUN technology
+SCI_BUZZWORD_NOUN lore
 SCI_BUZZWORD_NOUN communication
-SCI_BUZZWORD_NOUN algorithms
+SCI_BUZZWORD_NOUN spell sequence
 SCI_BUZZWORD_NOUN theory
 SCI_BUZZWORD_NOUN methodologies
 SCI_BUZZWORD_NOUN information
@@ -1966,7 +1965,7 @@ SCI_DRAWBACK shortcoming
 SCI_DRAWBACK flaw
 
 WHAT_PL			these results
-WHAT_PL			these algorithms
+WHAT_PL			these spells
 WHAT_PL			a more thorough discussion
 
 WHAT			it
@@ -1987,128 +1986,128 @@ SCI_THING	SCI_THING_S
 SCI_THING_HAS	SCI_THING_S has
 SCI_THING_HAS	SCI_THING_P have
 
-SCI_THING_S	courseware
-SCI_THING_S	e-commerce
+SCI_THING_S	chromatic
+SCI_THING_S	chrystal
 
-SCI_THING_S	IPv4
-SCI_THING_S	IPv6
-SCI_THING_S	IPv7
-SCI_THING_P	DHTs
-SCI_THING_P	robots
-SCI_THING_P	agents
-SCI_THING_P	Markov models
-SCI_THING_S	the memory bus
-SCI_THING_P	SMPs
+SCI_THING_S	choral
+SCI_THING_S	dragon scale
+SCI_THING_S	philosopher’s stone
+SCI_THING_P	alchemical silver
+SCI_THING_P	cold iron
+SCI_THING_P	mithril
+SCI_THING_P	adamantium
+SCI_THING_S	scooma
+SCI_THING_P	shadow essence
 SCI_THING_P	kernels
-SCI_THING_P	suffix trees
-SCI_THING_P	spreadsheets
-SCI_THING_P	operating systems
+SCI_THING_P	metamagic
+SCI_THING_P	divination services
+SCI_THING_P	arcane systems
 SCI_THING_P	systems
 SCI_THING_P	interrupts
-SCI_THING_P	Web services
-SCI_THING_P	massive multiplayer online role-playing games
-SCI_THING_P	Byzantine fault tolerance
+SCI_THING_P	scrying services
+SCI_THING_P	massive multicaster continuous arcane rituals
+SCI_THING_P	Fey fault tolerance
 SCI_THING_S	the location-identity split
-SCI_THING_P	sensor networks
-SCI_THING_P	online algorithms
-SCI_THING_S	extreme programming
-SCI_THING_P	object-oriented languages
-SCI_THING_S	Scheme
-SCI_THING_S	DNS
-SCI_THING_S	802.11b
-SCI_THING_P	information retrieval systems
-SCI_THING_P	web browsers
+SCI_THING_P	wards
+SCI_THING_P	sending stones
+SCI_THING_S	crystals
+SCI_THING_P	bloodforges
+SCI_THING_S	spellfire
+SCI_THING_S	incarnum
+SCI_THING_S	dead-magic zone
+SCI_THING_P	spell component retrieval systems
+SCI_THING_P	mirrors of divination
 SCI_THING_S	architecture
-SCI_THING_P	thin clients
-#SCI_THING_S	the Commodore VIC-20
-SCI_THING_S	the Turing machine
-SCI_THING_P	B-trees
-SCI_THING_P	hierarchical databases
-SCI_THING_P	randomized algorithms
-SCI_THING_S	the Internet
-#SCI_THING_P	the Internets
-SCI_THING_S	consistent hashing
-SCI_THING_S	the transistor
-SCI_THING_S	the UNIVAC computer
-SCI_THING_S	Boolean logic
-SCI_THING_S	voice-over-IP
-SCI_THING_S	the World Wide Web
-SCI_THING_S	Moore's Law
-SCI_THING_P	flip-flop gates
-SCI_THING_S	e-business
-SCI_THING_P	neural networks
-SCI_THING_P	von Neumann machines
-SCI_THING_S	context-free grammar
-SCI_THING_P	digital-to-analog converters
-SCI_THING_P	journaling file systems
-SCI_THING_P	expert systems
-SCI_THING_P	active networks
-SCI_THING_S	evolutionary programming
-SCI_THING_S	simulated annealing
+SCI_THING_P	undead
+#SCI_THING_S	the Celestial call
+SCI_THING_S	the Abyssal pull
+SCI_THING_P	modrons
+SCI_THING_P	hierarchical necromantic hordes
+SCI_THING_P	chaos spellcasting
+SCI_THING_S	the hive mind
+#SCI_THING_P	the Illithid hive mind
+SCI_THING_S	continuous casting
+SCI_THING_S	the eldritch battery
+SCI_THING_S	Illithid elder brain
+SCI_THING_S	Bigby symbols
+SCI_THING_S	divination
+SCI_THING_S	the Spellweave
+SCI_THING_S	Mystra's Law
+SCI_THING_P	gate
+SCI_THING_S	arcane outlet
+SCI_THING_P	hive minds
+SCI_THING_P	Asmodeus automata
+SCI_THING_S	theurg grammar
+SCI_THING_P	divine-to-arcane converter
+SCI_THING_P	self-organizing scroll shelves
+SCI_THING_P	expert golems
+SCI_THING_P	active telepathy
+SCI_THING_S	illusionary folding
+SCI_THING_S	apparatus of gond
 SCI_THING_P	superpages
-SCI_THING_P	superblocks
-SCI_THING_S	the partition table
-SCI_THING_S	the lookaside buffer
-SCI_THING_P	POWER_OF_TWO bit architectures
-# SCI_THING_S 	distance e-learning
-SCI_THING_P	vacuum tubes
-SCI_THING_S 	Internet QoS
-SCI_THING_S 	rasterization
-SCI_THING_S	model checking
-SCI_THING_S	lambda calculus
-SCI_THING_S	scatter/gather I/O
-SCI_THING_S	XML
-SCI_THING_P	I/O automata
-SCI_THING_P	hash tables
-SCI_THING_P	red-black trees
-SCI_THING_P	linked lists
-SCI_THING_P	fiber-optic cables
-SCI_THING_S	the Ethernet
-SCI_THING_S	RAID
-SCI_THING_P	802.11 mesh networks
-SCI_THING_P	access points
-SCI_THING_P	gigabit switches
-SCI_THING_S	telephony
-SCI_THING_P	multi-processors
-SCI_THING_P	compilers
-SCI_THING_P	semaphores
-SCI_THING_P	RPCs
-SCI_THING_P	virtual machines
-SCI_THING_S	Smalltalk
-SCI_THING_S	A* search
-SCI_THING_S	reinforcement learning
-SCI_THING_P	Lamport clocks
-SCI_THING_S	the producer-consumer problem
-SCI_THING_P	checksums
-SCI_THING_P	link-level acknowledgements
-SCI_THING_P	public-private key pairs
-SCI_THING_P	symmetric encryption
-SCI_THING_S	forward-error correction
-SCI_THING_S	erasure coding
+SCI_THING_P	superbooks
+SCI_THING_S	bag of holding
+SCI_THING_S	portable hole
+SCI_THING_P	POWER_OF_TWO spell architecture
+# SCI_THING_S 	figurine
+SCI_THING_P	vorpal tube
+SCI_THING_S 	robe
+SCI_THING_S 	bracer
+SCI_THING_S	staff
+SCI_THING_S	ring
+SCI_THING_S	orb
+SCI_THING_S	cape
+SCI_THING_P	divine portrait
+SCI_THING_P	censer
+SCI_THING_P	amulet
+SCI_THING_P	realmspace
+SCI_THING_P	plane
+SCI_THING_S	phylactery
+SCI_THING_S	pact
+SCI_THING_P	truename
+SCI_THING_P	word of power
+SCI_THING_P	telekinesis
+SCI_THING_S	telepathy
+SCI_THING_P	multi-caster
+SCI_THING_P	gate
+SCI_THING_P	efreeti jar
+SCI_THING_P	homonculi
+SCI_THING_P	golem
+SCI_THING_S	divine dialect
+SCI_THING_S	scrying
+SCI_THING_S	ioun stone
+SCI_THING_P	identification pearl
+SCI_THING_S	the spellweave disruption problem
+SCI_THING_P	spell components
+SCI_THING_P	vocal component
+SCI_THING_P	somatic components
+SCI_THING_P	symmetric somatic components
+SCI_THING_S	interplanar
+SCI_THING_S	planar blocking
 SCI_THING_S	redundancy
 SCI_THING_S	replication
 SCI_THING_S     congestion control
-SCI_THING_P	wide-area networks
-SCI_THING_P	local-area networks
-SCI_THING_S	DHCP
-SCI_THING_P	write-back caches
+SCI_THING_P	wide-area telepathy
+SCI_THING_P	local-area telepathy
+SCI_THING_S	truenaming
+SCI_THING_P	disspell refund
 SCI_THING_P	multicast SCI_SYSTEM_PL
-SCI_THING_S	write-ahead logging
-SCI_THING_S	cache coherence
-SCI_THING_P	SCSI disks
+SCI_THING_S	ritual suitability
+SCI_THING_S	spell coherence
+SCI_THING_P	SCSI scrolls
 SCI_THING_MOD	SCI_THING CITATION_SOMETIMES
-SCI_SYSTEM	algorithm
+SCI_SYSTEM	spell
 SCI_SYSTEM	system
-SCI_SYSTEM	framework
+SCI_SYSTEM	ritual
 SCI_SYSTEM	heuristic
 SCI_SYSTEM	application
 SCI_SYSTEM	methodology
 SCI_SYSTEM	SCI_APPROACH
 SCI_OUR_SYSTEM	our SCI_SYSTEM
 SCI_OUR_SYSTEM	SYSNAME
-SCI_SYSTEM_PL	algorithms
+SCI_SYSTEM_PL	spells
 SCI_SYSTEM_PL	systems
-SCI_SYSTEM_PL	frameworks
+SCI_SYSTEM_PL	rituals
 SCI_SYSTEM_PL	heuristics
 SCI_SYSTEM_PL	applications
 SCI_SYSTEM_PL	methodologies
@@ -2121,33 +2120,33 @@ METHODOLOGY	strategy
 
 SCI_FIELD	SCI_BUZZWORD_ADJ SCI_FIELD
 SCI_FIELD	SCI_MATH_ADJ SCI_FIELD
-SCI_FIELD	hardware and architecture
-SCI_FIELD	networking
-SCI_FIELD	operating systems
-SCI_FIELD	programming languages
-SCI_FIELD	theory
-SCI_FIELD	algorithms
-SCI_FIELD	complexity theory
-SCI_FIELD	artificial intelligence
-SCI_FIELD	machine learning
-SCI_FIELD	robotics
-SCI_FIELD	electrical engineering
-SCI_FIELD	e-voting technology
-SCI_FIELD	cryptography
-SCI_FIELD	cryptoanalysis
-SCI_FIELD	cyberinformatics
-SCI_FIELD	steganography
-SCI_FIELD	software engineering
-SCI_COUNTRY	American
-SCI_COUNTRY	British
-SCI_COUNTRY	Canadian
-SCI_COUNTRY	French
-SCI_COUNTRY	German
-SCI_COUNTRY	Italian
-SCI_COUNTRY	Japanese
-SCI_COUNTRY	Swedish
-SCI_COUNTRY	Russian
-SCI_COUNTRY	Soviet
+SCI_FIELD	artifice
+SCI_FIELD	necromancy
+SCI_FIELD	wild magic
+SCI_FIELD	alteration
+SCI_FIELD	evocation
+SCI_FIELD	abjuration
+SCI_FIELD	transmutation
+SCI_FIELD	illusionism
+SCI_FIELD	pact magic
+SCI_FIELD	shadow magic 
+SCI_FIELD	rune magic
+SCI_FIELD	chronomancy
+SCI_FIELD	alchemy
+SCI_FIELD	divination
+SCI_FIELD	enchantment
+SCI_FIELD	psionics
+SCI_FIELD	ki
+SCI_COUNTRY	Neverwinter
+SCI_COUNTRY	Sword Coast
+SCI_COUNTRY	Feywild
+SCI_COUNTRY	Celestia
+SCI_COUNTRY	Dis
+SCI_COUNTRY	Amn
+SCI_COUNTRY	Waterdeep
+SCI_COUNTRY	Icewind Dale
+SCI_COUNTRY	Baldur’s Gate
+SCI_COUNTRY	Cormyr
 
 #############################################################################
 ####### Adjectives/adverbs #######
@@ -2156,7 +2155,7 @@ SCI_COUNTRY	Soviet
 SCI_BUZZWORD_ADJ_MULTI+5 SCI_BUZZWORD_ADJ
 SCI_BUZZWORD_ADJ_MULTI+10 SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ
 SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ
-SCI_BUZZWORD_ADJ peer-to-peer
+SCI_BUZZWORD_ADJ hive
 SCI_BUZZWORD_ADJ game-theoretic
 SCI_BUZZWORD_ADJ knowledge-based
 SCI_BUZZWORD_ADJ relational
@@ -2166,13 +2165,13 @@ SCI_BUZZWORD_ADJ linear-time
 SCI_BUZZWORD_ADJ ``fuzzy''
 SCI_BUZZWORD_ADJ embedded
 SCI_BUZZWORD_ADJ constant-time
-SCI_BUZZWORD_ADJ client-server
+SCI_BUZZWORD_ADJ disspellable
 SCI_BUZZWORD_ADJ efficient
 SCI_BUZZWORD_ADJ reliable
 SCI_BUZZWORD_ADJ replicated
 SCI_BUZZWORD_ADJ low-energy
 SCI_BUZZWORD_ADJ omniscient
-SCI_BUZZWORD_ADJ wireless
+SCI_BUZZWORD_ADJ telepathic
 SCI_BUZZWORD_ADJ modular
 SCI_BUZZWORD_ADJ autonomous
 SCI_BUZZWORD_ADJ introspective
@@ -2191,13 +2190,13 @@ SCI_BUZZWORD_ADJ classical
 SCI_BUZZWORD_ADJ atomic
 SCI_BUZZWORD_ADJ event-driven
 SCI_BUZZWORD_ADJ read-write
-SCI_BUZZWORD_ADJ encrypted
+SCI_BUZZWORD_ADJ unscryable
 SCI_BUZZWORD_ADJ highly-available
 SCI_BUZZWORD_ADJ secure
 SCI_BUZZWORD_ADJ interposable
-SCI_BUZZWORD_ADJ cacheable
+SCI_BUZZWORD_ADJ channelable
 SCI_BUZZWORD_ADJ perfect
-SCI_BUZZWORD_ADJ electronic
+SCI_BUZZWORD_ADJ arcane
 SCI_BUZZWORD_ADJ pervasive
 SCI_BUZZWORD_ADJ large-scale
 SCI_BUZZWORD_ADJ Bayesian
@@ -2209,16 +2208,16 @@ SCI_BUZZWORD_ADJ homogeneous
 SCI_BUZZWORD_ADJ collaborative
 SCI_BUZZWORD_ADJ concurrent
 SCI_BUZZWORD_ADJ probabilistic
-SCI_BUZZWORD_ADJ mobile
+SCI_BUZZWORD_ADJ long range
 SCI_BUZZWORD_ADJ wearable
 SCI_BUZZWORD_ADJ semantic
-SCI_BUZZWORD_ADJ real-time
+SCI_BUZZWORD_ADJ immediate
 SCI_BUZZWORD_ADJ cooperative
 SCI_BUZZWORD_ADJ decentralized
 SCI_BUZZWORD_ADJ scalable
 SCI_BUZZWORD_ADJ certifiable
 SCI_BUZZWORD_ADJ robust
-SCI_BUZZWORD_ADJ signed
+SCI_BUZZWORD_ADJ chaos driven
 SCI_BUZZWORD_ADJ virtual
 SCI_BUZZWORD_ADJ lossless
 SCI_BUZZWORD_ADJ psychoacoustic
@@ -2229,7 +2228,7 @@ SCI_BUZZWORD_ADJ unstable
 SCI_BUZZWORD_ADJ symbiotic
 SCI_BUZZWORD_ADJ stochastic
 SCI_BUZZWORD_ADJ random
-SCI_BUZZWORD_ADJ pseudorandom
+SCI_BUZZWORD_ADJ pseudochaotic
 
 SCI_IDEAL	ideal
 SCI_IDEAL	optimal
@@ -2404,13 +2403,13 @@ SCI_MATH_ADJ	exhaustive
 SCI_MATH_ADJ	Markov
 SCI_MATH_ADJ	Bayesian
 SCI_MATH_ADJ	randomized
-SCI_MATH_ADJ	pipelined
+SCI_MATH_ADJ	channeled
 #SCI_MATH_ADJ	hardware
-SCI_MATH_ADJ	wireless
+SCI_MATH_ADJ	telepathic
 SCI_MATH_ADJ	wired
 SCI_MATH_ADJ	separated
 SCI_MATH_ADJ	saturated
-SCI_MATH_ADJ	DoS-ed
+SCI_MATH_ADJ	cloned
 SCI_MATH_ADJ	replicated
 
 SCI_MATH_ADV	extremely
@@ -2419,7 +2418,7 @@ SCI_MATH_ADV	randomly
 SCI_MATH_ADV	mutually
 SCI_MATH_ADV	collectively
 SCI_MATH_ADV	topologically
-SCI_MATH_ADV	computationally
+SCI_MATH_ADV	mystically
 SCI_MATH_ADV	opportunistically
 SCI_MATH_ADV	lazily
 SCI_MATH_ADV	provably
@@ -2687,7 +2686,7 @@ SCI_SYS_VERB	allow
 SCI_SYS_VERB	provide
 SCI_SYS_VERB	control
 SCI_SYS_VERB	request
-SCI_SYS_VERB	cache
+SCI_SYS_VERB	linger
 SCI_SYS_VERB	create
 SCI_SYS_VERB	learn
 SCI_SYS_VERB	observe
@@ -2747,7 +2746,7 @@ SCI_MATH_VERBING	decoupling
 SCI_MATH_VERBING	saturating
 SCI_MATH_VERBING	composing
 SCI_MATH_VERBING	replicating
-SCI_MATH_VERBING	pipelining
+SCI_MATH_VERBING	channeling
 
 NOTED		noted
 NOTED		observed
@@ -2907,31 +2906,31 @@ SCC_EXPR_EXP	n
 
 
 SCI_PROOF_PROP+5 runs in SCI_COMPLEXITY_FUNC(SCI_COMPLEXITY) time
-SCI_PROOF_PROP is NP-complete
+SCI_PROOF_PROP is extremely difficult
 SCI_PROOF_PROP is impossible
-SCI_PROOF_PROP is recursively enumerable
-SCI_PROOF_PROP is in Co-NP
+SCI_PROOF_PROP is recursively castable
+SCI_PROOF_PROP is chaos resistant
 SCI_PROOF_PROP is optimal
-SCI_PROOF_PROP is Turing complete
+SCI_PROOF_PROP is scry proof
 SCI_PROOF_PROP is maximally efficient
-SCI_PROOF_PROP follows a Zipf-like distribution
+SCI_PROOF_PROP follows a lesser spellweave distribution
 
 #############################################################################
 ####### People #######
 #############################################################################
 
-SCI_PERSON	chemist
-SCI_PERSON	physicist
-SCI_PERSON	information theorist
-SCI_PERSON	computational biologist
-SCI_PERSON	system administrator
-SCI_PERSON	gifted hacker
-SCI_PERSON	convicted hacker
-SCI_PERSON	mad scientist
-SCI_PERSON	hardware designer
-SCI_PERSON	complexity theorist
-SCI_PERSON	algorithmist
-SCI_PERSON	analyst
+SCI_PERSON	alchemist
+SCI_PERSON	illusionist
+SCI_PERSON	conjurer
+SCI_PERSON	druid
+SCI_PERSON	abjurer
+SCI_PERSON	summoner
+SCI_PERSON	transmuter
+SCI_PERSON            sage
+SCI_PERSON	chaos mage
+SCI_PERSON	artificer
+SCI_PERSON	necromancer
+SCI_PERSON	enchanter
 
 SCI_PEOPLE	leading analysts
 SCI_PEOPLE	experts
@@ -3690,21 +3689,21 @@ CITE_PAGES 5DIGIT--6DIGIT
 CITE_PAGES 7DIGIT--8DIGIT
 CITE_PAGES 15DIGIT--19DIGIT
 
-CITE_INST MIT CSAIL
-CITE_INST UC Berkeley
-CITE_INST Devry Technical Institute
-CITE_INST IIT
-CITE_INST UIUC
-CITE_INST University of Washington
-CITE_INST UCSD
-CITE_INST Harvard University
-CITE_INST Intel Research
-CITE_INST Microsoft Research
-CITE_INST IBM Research
-CITE_INST UT Austin
-CITE_INST CMU
-CITE_INST Stanford University
-CITE_INST University of Northern South Dakota
+CITE_INST Waterdeep Arcanum
+CITE_INST Northern They Outpost
+CITE_INST Red Wizard Syndicate
+CITE_INST Druid Circle
+CITE_INST Institute for Arcane Investigations
+CITE_INST School of Lore
+CITE_INST Halls of the Eldar Sages
+CITE_INST Chaotic Research Center
+CITE_INST Sorcerer’s Lodge
+CITE_INST Council of Magi
+CITE_INST Arcane Institute of the Northern Realms
+CITE_INST Abyssal Conjurers Association
+CITE_INST Guild of Summoners
+CITE_INST University of Arcane Arts
+CITE_INST Neverwinter College
 
 NONZ 1
 NONZ 2
